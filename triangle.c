@@ -7,9 +7,9 @@
 SDL_Window* win = 0;
 SDL_Renderer* render = 0;
 
-float mid(float a, float b)
+inline float mid(float a, float b)
 {
-	return a + (b - a) / 2;
+	return (b + a) / 2;
 }
 
 
